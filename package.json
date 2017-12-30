@@ -1,0 +1,37 @@
+{
+  "name": "elm-test",
+  "version": "1.0.0",
+  "description": "Elm testing sandbox",
+  "main": "api.js",
+  "dependencies": {
+    "ace-css": "^1.1.0",
+    "css-loader": "^0.28.7",
+    "elm-webpack-loader": "^4.4.0",
+    "file-loader": "^1.1.6",
+    "font-awesome": "^4.7.0",
+    "foreman": "^2.0.0",
+    "json-server": "^0.12.1",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nf start",
+    "api": "node api.js",
+    "build": "webpack",
+    "dev": "webpack-dev-server --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjohns1/elm-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjohns1/elm-test/issues"
+  },
+  "homepage": "https://github.com/benjohns1/elm-test#readme"
+}
